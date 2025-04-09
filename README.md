@@ -10,6 +10,25 @@ Trước tiên, cài đặt các thư viện cần thiết:
 pip install -r requirements.txt
 ```
 
+Nếu xảy ra lỗi 
+
+```bash
+Building wheel for pdftotext (pyproject.toml) ... error
+  error: subprocess-exited-with-error
+
+  × Building wheel for pdftotext (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [66 lines of output]
+      WARNING: pkg-config not found--guessing at poppler version.
+               If the build fails, install pkg-config and try again.
+```
+
+thì cần cài poppler trước:
+
+```bash
+conda install -c conda-forge poppler
+```
+
 ## 📁 Chuẩn Bị Dữ Liệu
 
 Tổ chức các file bài nộp theo cấu trúc thư mục:
