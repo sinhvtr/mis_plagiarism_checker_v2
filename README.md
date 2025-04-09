@@ -56,7 +56,6 @@ data/
                     ├── 25A4015678.pdf
                     └── ...
 ```
-
 ##🧾 Chuyển Đổi File Word/PDF Sang Text
 
 Chạy script word2txt.py để chuyển đổi các file .docx và .pdf sang định dạng .txt:
